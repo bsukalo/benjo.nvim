@@ -751,13 +751,6 @@ require('lazy').setup({
     },
   },
 
-  -- tsserver
-  {
-    'pmizio/typescript-tools.nvim',
-    dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
-    opts = {},
-  },
-
   -- nice indent lines
   {
     'lukas-reineke/indent-blankline.nvim',
